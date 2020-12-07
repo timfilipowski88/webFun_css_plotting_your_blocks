@@ -7,6 +7,7 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 20px;
    }
    #header{
     min-height: 150px;
@@ -16,20 +17,29 @@
     min-height: 300px;
     width: 200px;
     background-color: blue;
+    display: inline-block;
+    margin: 20px 0 0 0;
    }
    #main_content{
     min-height: 400px;
-    width: 700px;
+    width: 690px;
     background-color: red;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: top;
+    margin: 20px 0 0 20px;
    }
    .subcontents{
     min-height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: yellow;
+    display: inline-block;
+    margin: 0 10px 0 0;
    }
    #advertisement{
     min-height: 120px;
-    width: 660px;
+    width: 630px;
     background-color: purple;
+    margin: 25px 0;
    }
    
